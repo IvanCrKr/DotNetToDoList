@@ -1,0 +1,7 @@
+CREATE DATABASE TodoDb;
+
+CREATE TABLE TodoItems (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(255) NOT NULL,
+    IsCompleted BIT NOT NULL
+);
